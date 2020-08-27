@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "node服务端",
+  "scripts": {
+    "dev": "node-dev ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bigfool-cn",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.3",
+    "moment": "^2.25.3",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.9"
+  },
+  "devDependencies": {
+    "node-dev": "^5.0.0"
+  }
+}
